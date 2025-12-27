@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -11,22 +10,16 @@
 <body>
   <!-- Top bar -->
   <header class="topbar">
-    <a class="logo" href="/">Biplob Kumar DasE</a>
-
-    <nav class="nav">
-      <a href="#work">Work</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <a class="logo" href="/">Biplob Kumar Das</a>
   </header>
 
   <main class="wrap">
     <!-- Minimal hero -->
     <section class="hero">
-      <p class="kicker">REPORTER</p>
+      <p class="kicker">Reporting</p>
       <h1 class="title">Biplob Kumar Das</h1>
       <p class="deck">
-        “I report on politics, businesses and immigrant communities.”
+        “I report from the intersection of politics, business and immigration.”
       </p>
 
       <div class="links">
@@ -82,7 +75,6 @@
           <a href="https://www.dropsitenews.com/p/modi-epstein-files-steve-bannon-india-trump-bjp" target="_blank" rel="noopener">
             <p class="pub">DropSite News</p>
             <h2 class="headline">“Modi on board”: Jeffrey Epstein Pressed Steve Bannon to Meet With Indian PM Shortly Before His Death</h2>
-            <p class="meta">DropSite News</p>
           </a>
         </article>
 
@@ -100,7 +92,6 @@
           <a href="https://www.newindiaabroad.com/english/news/proud-of-my-hindu-heritage-mamdani-visits-nyc-temples-to-connect-with-supporters" target="_blank" rel="noopener">
             <p class="pub">New India Abroad</p>
             <h2 class="headline">“Proud of my Hindu Heritage”: Mamdani visits NYC temples to connect with supporters</h2>
-            <p class="meta">New India Abroad</p>
           </a>
         </article>
 
@@ -109,7 +100,6 @@
           <a href="https://www.newindiaabroad.com/english/indian-diaspora-community/hindus-for-zohran-organizes-prayer-meet-for-mamdani-in-ny" target="_blank" rel="noopener">
             <p class="pub">New India Abroad</p>
             <h2 class="headline">Hindus For Zohran organizes prayer meet for Mamdani in NY</h2>
-            <p class="meta">New India Abroad</p>
           </a>
         </article>
       </div>
