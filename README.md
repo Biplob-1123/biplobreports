@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your Name — Writing</title>
+  <title>Biplob Kumardas — Writing</title>
   <link rel="stylesheet" href="styles.css" />
-</head>
+  </head>
 <body>
   <!-- Top bar -->
   <header class="topbar">
-    <a class="logo" href="/">YOUR NAME</a>
+    <a class="logo" href="/">Biplob Kumar Das</a>
 
     <nav class="nav">
       <a href="#featured">Featured</a>
@@ -29,11 +29,11 @@
           <img class="hero-img" src="assets/img/hero.jpg" alt="Featured story image">
           <div class="hero-text">
             <p class="kicker">FEATURE</p>
-            <h1 class="hero-title">Your Best Headline Goes Here</h1>
+            <h1 class="hero-title">Exclusive: India’s largest far-right Hindu organization hires U.S. lobbyists for congressional influence campaign</h1>
             <p class="deck">
-              1–2 sentence standfirst (what WIRED calls a “dek”): what the piece is about, why it matters.
+              Squire Patton Boggs lobbied U.S. lawmakers on behalf of the Rashtriya Swayamsevak Sangh, a Hindu nationalist group linked to discrimination and violence against Muslims, a Prism investigation found
             </p>
-            <p class="byline">By Your Name • Publication / Year</p>
+            <p class="byline">By Meghnad Bose and Biplob Kumar Das • Prism / 2025</p>
           </div>
         </a>
       </article>
@@ -130,7 +130,7 @@
   </main>
 
   <footer class="footer">
-    <p>© <span id="y"></span> Your Name</p>
+    <p>© <span id="y"></span> Biplob Kumar Das</p>
   </footer>
 
   <script>
