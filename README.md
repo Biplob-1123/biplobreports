@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your Name — Portfolio</title>
+  <title>Biplob — Portfolio</title>
   <style>
     body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 16px; line-height: 1.6; }
     header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
@@ -17,7 +17,7 @@
   <header>
     <div>
       <h1>Your Name</h1>
-      <p class="muted">Role / Specialty — short sentence about what you do.</p>
+      <p class="muted">Independent investigative journalist interested reporting on politics and business.</p>
     </div>
     <nav>
       <a href="#projects">Projects</a>
@@ -50,7 +50,7 @@
   <section id="about">
     <h2>About</h2>
     <p>
-      Write 3–6 lines about your background, your skills, and what roles you want.
+      Reporting from the intersection of politics and business.
     </p>
     <ul>
       <li>Skill 1</li>
@@ -61,15 +61,15 @@
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:you@email.com">you@email.com</a></p>
+    <p>Email: <a href="mailto:biplobkumardas@protonmail.com">biplobkumardas@protonmail.com</a></p>
     <p>
-      <a href="https://www.linkedin.com/in/yourname/">LinkedIn</a> |
-      <a href="https://github.com/yourname">GitHub</a>
+      <a href="[https://www.linkedin.com/in/yourname/](https://www.linkedin.com/in/biplob-kumar-das-9724b5188/)">LinkedIn</a> |
+      <a href="https://github.com/Biplob-1123">GitHub</a>
     </p>
   </section>
 
   <footer>
-    <p>© <span id="y"></span> Your Name</p>
+    <p>© <span id="y"></span> Biplob</p>
   </footer>
 
   <script>
