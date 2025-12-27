@@ -1,140 +1,151 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Biplob Kumardas — Writing</title>
-  <link rel="stylesheet" href="styles.css" />
-  </head>
-<body>
-  <!-- Top bar -->
-  <header class="topbar">
-    <a class="logo" href="/">Biplob Kumar Das</a>
+:root{
+  --bg:#fff;
+  --text:#111;
+  --muted:#666;
+  --line:#e6e6e6;
+  --max:1100px;
+}
 
-    <nav class="nav">
-      <a href="#featured">Featured</a>
-      <a href="#latest">Latest</a>
-      <a href="#topics">Topics</a>
-      <a href="/about.html">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color:var(--text);
+  background:var(--bg);
+}
+a{color:inherit; text-decoration:none}
+a:hover{ text-decoration:underline; }
 
-  <main class="wrap">
-    <!-- Above-the-fold: two columns like a magazine homepage -->
-    <section class="front">
-      <!-- Left: big feature -->
-      <article class="hero" id="featured">
-        <a class="hero-link" href="articles/first-piece.html">
-          <img class="hero-img" src="assets/img/hero.jpg" alt="Featured story image">
-          <div class="hero-text">
-            <p class="kicker">FEATURE</p>
-            <h1 class="hero-title">Exclusive: India’s largest far-right Hindu organization hires U.S. lobbyists for congressional influence campaign</h1>
-            <p class="deck">
-              Squire Patton Boggs lobbied U.S. lawmakers on behalf of the Rashtriya Swayamsevak Sangh, a Hindu nationalist group linked to discrimination and violence against Muslims, a Prism investigation found
-            </p>
-            <p class="byline">By Meghnad Bose and Biplob Kumar Das • Prism / 2025</p>
-          </div>
-        </a>
-      </article>
+.topbar{
+  position:sticky; top:0; z-index:10;
+  background:rgba(255,255,255,0.92);
+  backdrop-filter: blur(8px);
+  border-bottom:1px solid var(--line);
+  display:flex; align-items:center; justify-content:space-between;
+  padding:14px 18px;
+}
+.logo{
+  font-weight:800;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+}
+.nav a{
+  margin-left:14px;
+  font-size:14px;
+  color:var(--muted);
+}
+.nav a:hover{color:var(--text)}
 
-      <!-- Right: trending / picks list -->
-      <aside class="rail">
-        <h2 class="rail-title">Today’s Picks</h2>
+.wrap{ max-width:var(--max); margin:0 auto; padding:18px; }
 
-        <a class="rail-item" href="articles/second-piece.html">
-          <p class="kicker">ESSAY</p>
-          <p class="rail-headline">Short headline for another strong piece</p>
-          <p class="rail-meta">Publication • 2025</p>
-        </a>
+.front{
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  gap:18px;
+  margin-top:10px;
+}
 
-        <a class="rail-item" href="articles/third-piece.html">
-          <p class="kicker">REPORTING</p>
-          <p class="rail-headline">Another headline that fits on 1–2 lines</p>
-          <p class="rail-meta">Publication • 2024</p>
-        </a>
+.hero{
+  border:1px solid var(--line);
+  border-radius:16px;
+  overflow:hidden;
+}
+.hero-link{ display:block; }
+.hero-img{ width:100%; height:320px; object-fit:cover; display:block; }
+.hero-text{ padding:16px; }
+.kicker{
+  margin:0 0 6px 0;
+  font-size:12px;
+  letter-spacing:0.12em;
+  color:var(--muted);
+  text-transform:uppercase;
+}
+.hero-title{
+  margin:0 0 10px 0;
+  font-size:34px;
+  line-height:1.1;
+}
+.deck{ margin:0 0 10px 0; color:var(--muted); }
+.byline{ margin:0; font-size:14px; color:var(--muted); }
 
-        <a class="rail-item" href="articles/fourth-piece.html">
-          <p class="kicker">INTERVIEW</p>
-          <p class="rail-headline">One more headline</p>
-          <p class="rail-meta">Publication • 2023</p>
-        </a>
-      </aside>
-    </section>
+.rail{
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:14px;
+}
+.rail-title{ margin:0 0 10px 0; font-size:16px; }
+.rail-item{
+  display:block;
+  padding:12px 0;
+  border-top:1px solid var(--line);
+}
+.rail-item:first-of-type{ border-top:none; padding-top:0; }
+.rail-headline{ margin:4px 0 6px 0; font-weight:700; }
+.rail-meta{ margin:0; font-size:13px; color:var(--muted); }
 
-    <!-- Grid of story cards -->
-    <section class="section" id="latest">
-      <div class="section-head">
-        <h2>Latest</h2>
-        <a class="smalllink" href="/archive.html">View all</a>
-      </div>
+.section{ margin-top:28px; }
+.section-head{
+  display:flex; align-items:baseline; justify-content:space-between;
+  border-top:1px solid var(--line);
+  padding-top:14px;
+}
+.section-head h2{ margin:0; font-size:18px; letter-spacing:0.02em; }
+.smalllink{ font-size:14px; color:var(--muted); }
 
-      <div class="grid">
-        <article class="card">
-          <a href="articles/second-piece.html">
-            <img class="thumb" src="assets/img/thumb1.jpg" alt="">
-            <p class="kicker">CULTURE</p>
-            <h3 class="card-title">Title of the piece</h3>
-            <p class="card-deck">One sentence about what the reader gets.</p>
-            <p class="card-meta">Publication • 2025</p>
-          </a>
-        </article>
+.grid{
+  margin-top:14px;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:16px;
+}
+.card{
+  border:1px solid var(--line);
+  border-radius:16px;
+  overflow:hidden;
+}
+.card a{ display:block; padding:14px; }
+.thumb{
+  width:100%;
+  height:150px;
+  border-radius:12px;
+  object-fit:cover;
+  display:block;
+  margin-bottom:10px;
+}
+.placeholder{
+  background:linear-gradient(90deg, #f2f2f2, #fafafa, #f2f2f2);
+}
+.card-title{ margin:6px 0 8px 0; font-size:18px; line-height:1.2; }
+.card-deck{ margin:0 0 10px 0; color:var(--muted); }
+.card-meta{ margin:0; font-size:13px; color:var(--muted); }
 
-        <article class="card">
-          <a href="articles/third-piece.html">
-            <div class="thumb placeholder" aria-hidden="true"></div>
-            <p class="kicker">TECH</p>
-            <h3 class="card-title">Title of the piece</h3>
-            <p class="card-deck">One sentence about what the reader gets.</p>
-            <p class="card-meta">Publication • 2025</p>
-          </a>
-        </article>
+.topics{
+  margin-top:12px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.topic{
+  border:1px solid var(--line);
+  border-radius:999px;
+  padding:8px 12px;
+  font-size:14px;
+  color:var(--muted);
+}
+.topic:hover{ color:var(--text); }
 
-        <article class="card">
-          <a href="articles/fourth-piece.html">
-            <div class="thumb placeholder" aria-hidden="true"></div>
-            <p class="kicker">OPINION</p>
-            <h3 class="card-title">Title of the piece</h3>
-            <p class="card-deck">One sentence about what the reader gets.</p>
-            <p class="card-meta">Publication • 2024</p>
-          </a>
-        </article>
-      </div>
-    </section>
+.footer{
+  border-top:1px solid var(--line);
+  margin-top:40px;
+  padding:18px;
+  color:var(--muted);
+  text-align:center;
+}
 
-    <!-- Topic blocks -->
-    <section class="section" id="topics">
-      <div class="section-head">
-        <h2>Topics</h2>
-      </div>
-
-      <div class="topics">
-        <a class="topic" href="/topic/tech.html">Tech</a>
-        <a class="topic" href="/topic/culture.html">Culture</a>
-        <a class="topic" href="/topic/politics.html">Politics</a>
-        <a class="topic" href="/topic/essays.html">Essays</a>
-      </div>
-    </section>
-
-    <section class="section" id="contact">
-      <div class="section-head">
-        <h2>Contact</h2>
-      </div>
-      <p>Email: <a href="mailto:you@email.com">you@email.com</a></p>
-      <p>
-        <a href="https://twitter.com/yourhandle">X/Twitter</a> •
-        <a href="https://www.linkedin.com/in/yourname/">LinkedIn</a> •
-        <a href="https://medium.com/@you">Medium</a>
-      </p>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <p>© <span id="y"></span> Biplob Kumar Das</p>
-  </footer>
-
-  <script>
-    document.getElementById("y").textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+/* Responsive */
+@media (max-width: 900px){
+  .front{ grid-template-columns: 1fr; }
+  .hero-img{ height:240px; }
+  .grid{ grid-template-columns: 1fr; }
+  .nav{ display:none; } /* simple: hide on mobile */
+}
