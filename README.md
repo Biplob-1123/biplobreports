@@ -1,137 +1,478 @@
-<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Biplob Kumar Das — Writing</title>
-  <meta name="description" content="Portfolio of reporting and writing by Biplob Kumar Das." />
+  <title>Biplob Reports</title>
   <link rel="stylesheet" href="styles.css" />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Graduate&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-  <!-- Top bar -->
-  <header class="topbar">
-    <a class="logo" href="/">Biplob Kumar DasE</a>
 
-    <nav class="nav">
-      <a href="#work">Work</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <!-- COVER -->
+  <section class="cover">
+    <a class="cover-link" href="https://www.dropsitenews.com/p/modi-epstein-files-steve-bannon-india-trump-bjp" target="_blank" rel="noopener">
+      <div class="cover-bg" aria-hidden="true"></div>
+
+      <div class="cover-top-left">BIPLOB REPORTS</div>
+
+      <div class="cover-text">
+        <h1 class="cover-headline">
+          “MODI ON BOARD”: JEFFREY EPSTEIN PRESSED STEVE BANNON TO MEET WITH INDIAN PM SHORTLY BEFORE HIS DEATH
+        </h1>
+        <p class="cover-byline">
+          Meghnad Bose, Biplob Kumar Das, and Murtaza Hussain
+        </p>
+      </div>
+    </a>
+  </section>
+
+  <!-- SECTION NAV (click scrolls down) -->
+  <nav class="section-nav">
+    <a href="#investigations">INVESTIGATIONS</a>
+    <a href="#nyc-mayoral">NYC MAYORAL ELECTIONS</a>
+    <a href="#politics">POLITICS</a>
+    <a href="#business">BUSINESS</a>
+    <a href="#immigration">IMMIGRATION</a>
+    <!-- Photo Gallery NOT created for now -->
+  </nav>
+
+  <!-- NAME + CONTACT -->
+  <header class="intro">
+    <h2 class="name">BIPLOB KUMAR DAS</h2>
+
+    <div class="contact">
+      <div>Email: <a href="mailto:biplobkumardas@protonmail.com">biplobkumardas@protonmail.com</a></div>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/biplob-kumar-das-9724b5188/" target="_blank" rel="noopener">LinkedIn</a> |
+        <a href="https://www.instagram.com/__biplob/" target="_blank" rel="noopener">Instagram</a> |
+        <a href="https://x.com/BiplobKumarDas" target="_blank" rel="noopener">X</a>
+      </div>
+    </div>
+
+    <p class="bio">
+      I am an independent journalist currently based in New York City. My reporting and investigative work focuses on politics, business and how they intersect, particularly in immigrant communities.
+    </p>
   </header>
 
-  <main class="wrap">
-    <!-- Minimal hero -->
-    <section class="hero">
-      <p class="kicker">REPORTER</p>
-      <h1 class="title">Biplob Kumar Das</h1>
-      <p class="deck">
-        “I report on politics, businesses and immigrant communities.”
-      </p>
+  <main class="page">
 
-      <div class="links">
-        <a href="mailto:biplobkumardas@protonmail.com">biplobkumardas@protonmail.com</a>
-        <span class="dot">•</span>
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
-        <span class="dot">•</span>
-        <a href="https://www.linkedin.com/in/BiplobKumarDas/" target="_blank" rel="noopener">LinkedIn</a>
-      </div>
+    <!-- INVESTIGATIONS -->
+    <section class="sec" id="investigations">
+      <h3 class="sec-title">INVESTIGATIONS</h3>
+
+      <!-- Story block #1 (image left, text right) -->
+      <a class="story story-a" href="https://www.dropsitenews.com/p/modi-epstein-files-steve-bannon-india-trump-bjp" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">
+            “MODI ON BOARD”: JEFFREY EPSTEIN PRESSED STEVE BANNON TO MEET WITH INDIAN PM SHORTLY BEFORE HIS DEATH
+          </h4>
+          <p class="story-byline">Meghnad Bose, Biplob Kumar Das, and Murtaza Hussain</p>
+          <p class="story-pub">DropSite News</p>
+          <p class="story-dek">
+            Records of emails and text messages reveal previously unknown details about Epstein’s efforts to broker influence on Indian geopolitics and his interactions with a senior leader of Modi’s party.
+          </p>
+        </div>
+      </a>
+
+      <!-- Story block #2 (text left, image right) -->
+      <a class="story story-b" href="https://prismreports.org/2025/11/12/rss-squire-patton-boggs-lobbying-congress/" target="_blank" rel="noopener">
+        <div class="story-text">
+          <h4 class="story-headline">
+            EXCLUSIVE: INDIA’S LARGEST FAR-RIGHT HINDU ORGANIZATION HIRES U.S. LOBBYISTS FOR CONGRESSIONAL INFLUENCE CAMPAIGN
+          </h4>
+          <p class="story-byline">Meghnad Bose and Biplob Kumar Das</p>
+          <p class="story-pub">Prism</p>
+          <p class="story-dek">
+            Squire Patton Boggs lobbied U.S. lawmakers on behalf of the Rashtriya Swayamsevak Sangh, a Hindu nationalist group linked to discrimination and violence against Muslims, a Prism investigation found.
+          </p>
+        </div>
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+      </a>
+
+      <a class="story story-a" href="https://www.dropsitenews.com/p/campaign-spending-mamdani-cuomo-billionaires-bill-ackman-new-york-city-mayoral-race" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">THE MONEY VERSUS MAMDANI IN THE FINAL STRETCH OF NYC MAYORAL RACE</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">DropSite News</p>
+          <p class="story-dek">Reporting on late-stage spending and influence in the NYC mayoral contest.</p>
+        </div>
+      </a>
+
+      <a class="story story-b" href="https://documentedny.com/2025/10/27/cuomo-muslim-south-asian-islamophobic/" target="_blank" rel="noopener">
+        <div class="story-text">
+          <h4 class="story-headline">CUOMO’S OUTREACH TO SOUTH ASIANS SHADOWED BY FAR-RIGHT ANTI-MUSLIM TIES</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">Documented</p>
+          <p class="story-dek">How outreach politics intersect with far-right networks and anti-Muslim rhetoric.</p>
+        </div>
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+      </a>
     </section>
 
-    <!-- Articles grid (simple, no categories) -->
-    <section id="work" class="work">
-      <div class="grid">
-        <!-- 1 -->
-        <article class="card">
-          <a href="https://prismreports.org/2025/11/12/rss-squire-patton-boggs-lobbying-congress/" target="_blank" rel="noopener">
-            <p class="pub">Prism</p>
-            <h2 class="headline">Exclusive: India’s largest far-right Hindu organization hires U.S. lobbyists for congressional influence campaign</h2>
-            <p class="meta">Nov 12, 2025</p>
-          </a>
-        </article>
+    <!-- NYC MAYORAL ELECTIONS -->
+    <section class="sec" id="nyc-mayoral">
+      <h3 class="sec-title">NYC MAYORAL ELECTIONS</h3>
 
-        <!-- 2 -->
-        <article class="card">
-          <a href="https://documentedny.com/2025/11/04/halal-food-trucks-back-mamdani/" target="_blank" rel="noopener">
-            <p class="pub">Documented</p>
-            <h2 class="headline">Zohran Mamdani to Street Vendors: I’m Listening</h2>
-            <p class="meta">Nov 4, 2025</p>
-          </a>
-        </article>
+      <a class="story story-a" href="https://www.thequint.com/news/world/zohran-mamdani-mayor-win-speech-indian-americans-new-york-diaspora-reacts" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">ZOHRAN MAMDANI'S MAYORAL WIN: THE 'RIGHT KIND OF REPRESENTATION' FOR INDIAN AMERICANS IN NEW YORK</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">The Quint</p>
+          <p class="story-dek">A look at diaspora reactions and political meaning after the win speech.</p>
+        </div>
+      </a>
 
-        <!-- 3 -->
-        <article class="card">
-          <a href="https://documentedny.com/2025/10/27/cuomo-muslim-south-asian-islamophobic/" target="_blank" rel="noopener">
-            <p class="pub">Documented</p>
-            <h2 class="headline">Cuomo’s Outreach to South Asians Shadowed by Far-Right Anti-Muslim Ties</h2>
-            <p class="meta">Oct 27, 2025</p>
-          </a>
-        </article>
+      <a class="story story-b" href="https://documentedny.com/2025/11/04/halal-food-trucks-back-mamdani/" target="_blank" rel="noopener">
+        <div class="story-text">
+          <h4 class="story-headline">ZOHRAN MAMDANI TO STREET VENDORS: I’M LISTENING</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">Documented</p>
+          <p class="story-dek">Street vendors, policy, and the campaign’s promises on enforcement and support.</p>
+        </div>
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+      </a>
 
-        <!-- 4 -->
-        <article class="card">
-          <a href="https://documentedny.com/2025/09/04/desi-storeowners-queens-trumps-tariffs-india/" target="_blank" rel="noopener">
-            <p class="pub">Documented</p>
-            <h2 class="headline">South Asian Storeowners ‘Doomed’ by Trump’s 50% Tariffs on India Imports</h2>
-            <p class="meta">Sep 4, 2025</p>
-          </a>
-        </article>
+      <a class="story story-a" href="https://www.newindiaabroad.com/news/proud-of-my-hindu-heritage-mamdani-visits-nyc-temples-to-connect-with-supporters" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">“PROUD OF MY HINDU HERITAGE”: MAMDANI VISITS NYC TEMPLES TO CONNECT WITH SUPPORTERS</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">New India Abroad</p>
+          <p class="story-dek">Campaign outreach, identity politics, and community strategy.</p>
+        </div>
+      </a>
 
-        <!-- 5 -->
-        <article class="card">
-          <a href="https://www.dropsitenews.com/p/modi-epstein-files-steve-bannon-india-trump-bjp" target="_blank" rel="noopener">
-            <p class="pub">DropSite News</p>
-            <h2 class="headline">“Modi on board”: Jeffrey Epstein Pressed Steve Bannon to Meet With Indian PM Shortly Before His Death</h2>
-            <p class="meta">DropSite News</p>
-          </a>
-        </article>
+      <a class="story story-b" href="https://www.newindiaabroad.com/news/mamdani-announces-new-plan-to-hire-thousands-of-teachers-for-nyc-public-schools" target="_blank" rel="noopener">
+        <div class="story-text">
+          <h4 class="story-headline">MAMDANI ANNOUNCES NEW PLAN TO HIRE THOUSANDS OF TEACHERS FOR NYC PUBLIC SCHOOLS</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">New India Abroad</p>
+          <p class="story-dek">Education policy and staffing proposals on the trail.</p>
+        </div>
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+      </a>
 
-        <!-- 6 -->
-        <article class="card">
-          <a href="https://www.dropsitenews.com/p/campaign-spending-mamdani-cuomo-billionaires-bill-ackman-new-york-city-mayoral-race" target="_blank" rel="noopener">
-            <p class="pub">DropSite News</p>
-            <h2 class="headline">The Money Versus Mamdani in the Final Stretch of NYC Mayoral Race</h2>
-            <p class="meta">DropSite News</p>
-          </a>
-        </article>
+      <a class="story story-a" href="https://www.newindiaabroad.com/news/mamdani-shines-cuomo-flops-sliwa-surprises-in-nyc-debate" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">MAMDANI SHINES, CUOMO FLOPS, SLIWA SURPRISES IN NYC DEBATE</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">New India Abroad</p>
+          <p class="story-dek">Debate performance and what it signals for the final stretch.</p>
+        </div>
+      </a>
 
-        <!-- 7 -->
-        <article class="card">
-          <a href="https://www.newindiaabroad.com/english/news/proud-of-my-hindu-heritage-mamdani-visits-nyc-temples-to-connect-with-supporters" target="_blank" rel="noopener">
-            <p class="pub">New India Abroad</p>
-            <h2 class="headline">“Proud of my Hindu Heritage”: Mamdani visits NYC temples to connect with supporters</h2>
-            <p class="meta">New India Abroad</p>
-          </a>
-        </article>
+      <a class="story story-b" href="https://www.newindiaabroad.com/news/mamdani-stood-out-cuomo-didnt-have-substance-desis-react-to-final-nyc-mayoral-debate" target="_blank" rel="noopener">
+        <div class="story-text">
+          <h4 class="story-headline">“MAMDANI STOOD OUT, CUOMO DIDN’T HAVE SUBSTANCE”: DESIS REACT TO FINAL NYC MAYORAL DEBATE</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">New India Abroad</p>
+          <p class="story-dek">Community reaction and what voters are prioritizing.</p>
+        </div>
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+      </a>
 
-        <!-- 8 -->
-        <article class="card">
-          <a href="https://www.newindiaabroad.com/english/indian-diaspora-community/hindus-for-zohran-organizes-prayer-meet-for-mamdani-in-ny" target="_blank" rel="noopener">
-            <p class="pub">New India Abroad</p>
-            <h2 class="headline">Hindus For Zohran organizes prayer meet for Mamdani in NY</h2>
-            <p class="meta">New India Abroad</p>
-          </a>
-        </article>
-      </div>
+      <a class="story story-a" href="https://www.newindiaabroad.com/news/hindus-for-zohran-organizes-prayer-meet-for-mamdani-in-ny" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">HINDUS FOR ZOHRAN ORGANIZES PRAYER MEET FOR MAMDANI IN NY</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">New India Abroad</p>
+          <p class="story-dek">Organizing and symbolism in community spaces.</p>
+        </div>
+      </a>
+
+      <a class="story story-b" href="https://documentedny.com/2025/10/27/cuomo-muslim-south-asian-islamophobic/" target="_blank" rel="noopener">
+        <div class="story-text">
+          <h4 class="story-headline">CUOMO’S OUTREACH TO SOUTH ASIANS SHADOWED BY FAR-RIGHT ANTI-MUSLIM TIES</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">Documented</p>
+          <p class="story-dek">Campaign alliances and the backlash from Muslim New Yorkers.</p>
+        </div>
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+      </a>
+
+      <a class="story story-a" href="https://www.dropsitenews.com/p/campaign-spending-mamdani-cuomo-billionaires-bill-ackman-new-york-city-mayoral-race" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">THE MONEY VERSUS MAMDANI IN THE FINAL STRETCH OF NYC MAYORAL RACE</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">DropSite News</p>
+          <p class="story-dek">Spending, pressure campaigns, and late-stage narratives.</p>
+        </div>
+      </a>
     </section>
 
-    <!-- About + Contact (simple) -->
-    <section id="about" class="simple">
-      <h2>About</h2>
-      <p>
-        I am an independent journalist based in New York City. I previously worked as a business correspondent for Reuters. In 2025, I graduated from the Columbia Journalism School with a Master's in Journalism. I report on stories at the intersection of politics and business with an investigative lens.
-      </p>
+    <!-- POLITICS -->
+    <section class="sec" id="politics">
+      <h3 class="sec-title">POLITICS</h3>
+
+      <!-- Using your link list in the same style -->
+      <a class="story story-a" href="https://www.thequint.com/news/world/zohran-mamdani-mayor-win-speech-indian-americans-new-york-diaspora-reacts" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">ZOHRAN MAMDANI'S MAYORAL WIN: THE 'RIGHT KIND OF REPRESENTATION' FOR INDIAN AMERICANS IN NEW YORK</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">The Quint</p>
+          <p class="story-dek">Diaspora reaction and political significance.</p>
+        </div>
+      </a>
+
+      <a class="story story-b" href="https://documentedny.com/2025/11/04/halal-food-trucks-back-mamdani/" target="_blank" rel="noopener">
+        <div class="story-text">
+          <h4 class="story-headline">ZOHRAN MAMDANI TO STREET VENDORS: I’M LISTENING</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">Documented</p>
+          <p class="story-dek">Policy, street vendors, and campaign commitments.</p>
+        </div>
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+      </a>
+
+      <a class="story story-a" href="https://www.newindiaabroad.com/news/proud-of-my-hindu-heritage-mamdani-visits-nyc-temples-to-connect-with-supporters" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">“PROUD OF MY HINDU HERITAGE”: MAMDANI VISITS NYC TEMPLES TO CONNECT WITH SUPPORTERS</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">New India Abroad</p>
+          <p class="story-dek">Identity, outreach, and coalition building.</p>
+        </div>
+      </a>
+
+      <a class="story story-b" href="https://www.newindiaabroad.com/news/mamdani_announces_new_plan_to_hire_thousands_of_teachers_for_nyc_public_schools" target="_blank" rel="noopener">
+        <div class="story-text">
+          <h4 class="story-headline">MAMDANI ANNOUNCES NEW PLAN TO HIRE THOUSANDS OF TEACHERS FOR NYC PUBLIC SCHOOLS</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">New India Abroad</p>
+          <p class="story-dek">A major staffing proposal and its political stakes.</p>
+        </div>
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+      </a>
+
+      <a class="story story-a" href="https://www.newindiaabroad.com/news/mamdani-shines-cuomo-flops-sliwa-surprises-in-nyc-debate" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">MAMDANI SHINES, CUOMO FLOPS, SLIWA SURPRISES IN NYC DEBATE</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">New India Abroad</p>
+          <p class="story-dek">Debate dynamics and what changed afterward.</p>
+        </div>
+      </a>
+
+      <a class="story story-b" href="https://www.newindiaabroad.com/news/mamdani-stood-out-cuomo-didnt-have-substance-desis-react-to-final-nyc-mayoral-debate" target="_blank" rel="noopener">
+        <div class="story-text">
+          <h4 class="story-headline">“MAMDANI STOOD OUT, CUOMO DIDN’T HAVE SUBSTANCE”: DESIS REACT TO FINAL NYC MAYORAL DEBATE</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">New India Abroad</p>
+          <p class="story-dek">How voters interpreted the final debate.</p>
+        </div>
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+      </a>
+
+      <a class="story story-a" href="https://www.newindiaabroad.com/news/hindus-for-zohran-organizes-prayer-meet-for-mamdani-in-ny" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">HINDUS FOR ZOHRAN ORGANIZES PRAYER MEET FOR MAMDANI IN NY</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">New India Abroad</p>
+          <p class="story-dek">Organizing as momentum-building in the final stretch.</p>
+        </div>
+      </a>
+
+      <a class="story story-b" href="https://documentedny.com/2025/10/27/cuomo-muslim-south-asian-islamophobic/" target="_blank" rel="noopener">
+        <div class="story-text">
+          <h4 class="story-headline">CUOMO’S OUTREACH TO SOUTH ASIANS SHADOWED BY FAR-RIGHT ANTI-MUSLIM TIES</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">Documented</p>
+          <p class="story-dek">Campaign alliances and immigrant-community backlash.</p>
+        </div>
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+      </a>
+
+      <a class="story story-a" href="https://www.dropsitenews.com/p/campaign-spending-mamdani-cuomo-billionaires-bill-ackman-new-york-city-mayoral-race" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">THE MONEY VERSUS MAMDANI IN THE FINAL STRETCH OF NYC MAYORAL RACE</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">DropSite News</p>
+          <p class="story-dek">Tracking the pressure points and spending patterns.</p>
+        </div>
+      </a>
+
+      <a class="story story-b" href="https://www.dropsitenews.com/p/modi-epstein-files-steve-bannon-india-trump-bjp" target="_blank" rel="noopener">
+        <div class="story-text">
+          <h4 class="story-headline">“MODI ON BOARD”: JEFFREY EPSTEIN PRESSED STEVE BANNON TO MEET WITH INDIAN PM SHORTLY BEFORE HIS DEATH</h4>
+          <p class="story-byline">Meghnad Bose, Biplob Kumar Das, and Murtaza Hussain</p>
+          <p class="story-pub">DropSite News</p>
+          <p class="story-dek">Emails and texts revealing influence-brokering efforts.</p>
+        </div>
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+      </a>
+
+      <a class="story story-a" href="https://prismreports.org/2025/11/12/rss-squire-patton-boggs-lobbying-congress/" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">EXCLUSIVE: INDIA’S LARGEST FAR-RIGHT HINDU ORGANIZATION HIRES U.S. LOBBYISTS FOR CONGRESSIONAL INFLUENCE CAMPAIGN</h4>
+          <p class="story-byline">Meghnad Bose and Biplob Kumar Das</p>
+          <p class="story-pub">Prism</p>
+          <p class="story-dek">Lobbying, influence, and the U.S. political pipeline.</p>
+        </div>
+      </a>
     </section>
 
-    <section id="contact" class="simple">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:biplobkumardas@protonmail.com">biplobkumardas@protonmail.com</a></p>
+    <!-- BUSINESS -->
+    <section class="sec" id="business">
+      <h3 class="sec-title">BUSINESS</h3>
+
+      <a class="story story-a" href="https://documentedny.com/2025/09/04/desi-storeowners-queens-trumps-tariffs-india/" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">SOUTH ASIAN STOREOWNERS ‘DOOMED’ BY TRUMP’S 50% TARIFFS ON INDIA IMPORTS</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">Documented</p>
+          <p class="story-dek">How proposed tariffs could hit immigrant-run businesses in Queens.</p>
+        </div>
+      </a>
+
+      <a class="story story-b" href="https://www.reuters.com/business/retail-consumer/indian-winemaker-sula-not-losing-sleep-over-foreign-rivals-ceo-2023-09-15/" target="_blank" rel="noopener">
+        <div class="story-text">
+          <h4 class="story-headline">INDIAN WINEMAKER SULA NOT LOSING SLEEP OVER FOREIGN RIVALS, CEO SAYS</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">Reuters</p>
+          <p class="story-dek">Corporate strategy and competitive pressures in the market.</p>
+        </div>
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+      </a>
+
+      <a class="story story-a" href="https://www.reuters.com/business/aerospace-defense/india-aviation-regulator-raises-engine-failure-issue-with-pratt-whitney-2023-09-14/" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">INDIA AVIATION REGULATOR RAISES ENGINE FAILURE ISSUE WITH PRATT & WHITNEY</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">Reuters</p>
+          <p class="story-dek">Regulatory concerns and aerospace supply chain impacts.</p>
+        </div>
+      </a>
+
+      <a class="story story-b" href="https://www.reuters.com/business/media-telecom/reliance-unit-wins-india-cricket-boards-media-rights-with-713-mln-bid-2023-08-31/" target="_blank" rel="noopener">
+        <div class="story-text">
+          <h4 class="story-headline">RELIANCE UNIT WINS INDIA CRICKET BOARD’S MEDIA RIGHTS WITH $713M BID</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">Reuters</p>
+          <p class="story-dek">Major media rights deal and what it signals for streaming and telecom.</p>
+        </div>
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+      </a>
+
+      <a class="story story-a" href="https://www.reuters.com/business/indias-godrej-agrovet-posts-higher-q1-profit-costs-drop-2023-08-01/" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">INDIA’S GODREJ AGROVET POSTS HIGHER Q1 PROFIT AS COSTS DROP</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">Reuters</p>
+          <p class="story-dek">Earnings, margins, and sector-level implications.</p>
+        </div>
+      </a>
+
+      <a class="story story-b" href="https://www.reuters.com/business/autos-transportation/indias-bajaj-auto-posts-q1-profit-rise-strong-demand-2023-07-25/" target="_blank" rel="noopener">
+        <div class="story-text">
+          <h4 class="story-headline">INDIA’S BAJAJ AUTO POSTS Q1 PROFIT RISE ON STRONG DEMAND</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">Reuters</p>
+          <p class="story-dek">Auto demand strength and pricing power.</p>
+        </div>
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+      </a>
+
+      <a class="story story-a" href="https://www.reuters.com/business/media-telecom/unlike-netflix-indias-zee5-global-not-balking-password-sharing-2023-06-21/" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">UNLIKE NETFLIX, INDIA’S ZEE5 GLOBAL NOT BALKING AT PASSWORD SHARING</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">Reuters</p>
+          <p class="story-dek">Streaming strategy and subscriber growth approaches.</p>
+        </div>
+      </a>
+
+      <a class="story story-b" href="https://www.reuters.com/world/india/india-makes-tobacco-warnings-mandatory-streaming-sites-2023-05-31/" target="_blank" rel="noopener">
+        <div class="story-text">
+          <h4 class="story-headline">INDIA MAKES TOBACCO WARNINGS MANDATORY ON STREAMING SITES</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">Reuters</p>
+          <p class="story-dek">Regulation, platform compliance, and industry reaction.</p>
+        </div>
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+      </a>
     </section>
+
+    <!-- IMMIGRATION -->
+    <section class="sec" id="immigration">
+      <h3 class="sec-title">IMMIGRATION</h3>
+
+      <a class="story story-a" href="https://documentedny.com/2025/09/04/desi-storeowners-queens-trumps-tariffs-india/" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">SOUTH ASIAN STOREOWNERS ‘DOOMED’ BY TRUMP’S 50% TARIFFS ON INDIA IMPORTS</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">Documented</p>
+          <p class="story-dek">Immigrant-run businesses and the policy shock of tariffs.</p>
+        </div>
+      </a>
+
+      <a class="story story-b" href="https://documentedny.com/2025/11/04/halal-food-trucks-back-mamdani/" target="_blank" rel="noopener">
+        <div class="story-text">
+          <h4 class="story-headline">ZOHRAN MAMDANI TO STREET VENDORS: I’M LISTENING</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">Documented</p>
+          <p class="story-dek">Street vending, enforcement, and immigrant livelihoods.</p>
+        </div>
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+      </a>
+
+      <a class="story story-a" href="https://www.newindiaabroad.com/news/proud-of-my-hindu-heritage-mamdani-visits-nyc-temples-to-connect-with-supporters" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">“PROUD OF MY HINDU HERITAGE”: MAMDANI VISITS NYC TEMPLES TO CONNECT WITH SUPPORTERS</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">New India Abroad</p>
+          <p class="story-dek">Community outreach and immigrant political organization.</p>
+        </div>
+      </a>
+
+      <a class="story story-b" href="https://www.newindiaabroad.com/news/hindus-for-zohran-organizes-prayer-meet-for-mamdani-in-ny" target="_blank" rel="noopener">
+        <div class="story-text">
+          <h4 class="story-headline">HINDUS FOR ZOHRAN ORGANIZES PRAYER MEET FOR MAMDANI IN NY</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">New India Abroad</p>
+          <p class="story-dek">Immigrant community engagement and religious spaces.</p>
+        </div>
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+      </a>
+
+      <a class="story story-a" href="https://documentedny.com/2025/10/27/cuomo-muslim-south-asian-islamophobic/" target="_blank" rel="noopener">
+        <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
+        <div class="story-text">
+          <h4 class="story-headline">CUOMO’S OUTREACH TO SOUTH ASIANS SHADOWED BY FAR-RIGHT ANTI-MUSLIM TIES</h4>
+          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-pub">Documented</p>
+          <p class="story-dek">How immigrant communities navigate political targeting and backlash.</p>
+        </div>
+      </a>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="y"></span> Biplob Reports</div>
+    </footer>
+
   </main>
-
-  <footer class="footer">
-    <p>© <span id="y"></span> Biplob Kumar Das</p>
-  </footer>
 
   <script>
     document.getElementById("y").textContent = new Date().getFullYear();
