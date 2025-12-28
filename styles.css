@@ -5,12 +5,8 @@
   --muted:#333;
   --max: 1100px;
 
-  /* Font mapping */
   --font-head: "Archivo Black", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   --font-mast: "Graduate", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
-
-  /* Canva Sans is not publicly hostable by default.
-     Using Inter as a temporary body substitute. */
   --font-body: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
 
@@ -25,124 +21,124 @@ body{
 }
 a{ color:inherit; text-decoration:none; }
 
-/* COVER */
-.cover{ width:100%; position:relative; }
-.cover-link{
-  display:block;
-  position:relative;
-  height: 520px;
-  overflow:hidden;
-}
-.cover-bg{
-  position:absolute; inset:0;
-  background-image: url("assets/cover.jpg");
-  background-size: cover;
-  background-position: center;
-  transform: scale(1.02);
-}
-
-/* Top-left title: Graduate */
-.cover-top-left{
-  position:absolute;
-  top:26px; left:34px;
-  color:rgba(255,255,255,0.85);
-  font-family: var(--font-mast);
-  font-weight:400;
-  font-size:30px;
-  letter-spacing:0.06em;
-  text-transform:uppercase;
-  z-index:2;
-}
-
-.cover-text{
-  position:absolute;
-  left:34px;
-  right:34px;
-  bottom:28px;
-  z-index:2;
-}
-
-/* Cover headline: Archivo Black */
-.cover-headline{
-  margin:0 0 10px 0;
-  color:var(--white);
-  text-transform:uppercase;
-  font-family: var(--font-head);
-  font-weight:400; /* Archivo Black only has one weight */
-  font-size:46px;
-  line-height:1.05;
-  letter-spacing:0.01em;
-  text-shadow: 0 2px 14px rgba(0,0,0,0.25);
-}
-
-/* Cover byline: body font (Canva Sans substitute) */
-.cover-byline{
-  margin:0;
-  color: var(--purple);
-  font-family: var(--font-body);
-  font-weight:700;
-  font-size:18px;
-  text-shadow: 0 2px 14px rgba(0,0,0,0.25);
-}
-
-/* NAV BAR UNDER COVER */
-.section-nav{
+/* TOP BAR */
+.topbar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--white);
+  border-bottom: 1px solid #e9e9e9;
   display:flex;
   gap:34px;
   justify-content:center;
   align-items:center;
   padding: 18px 12px;
-  border-bottom: 1px solid #e9e9e9;
   font-family: var(--font-head);
   font-weight:400;
   letter-spacing:0.02em;
   text-transform:uppercase;
 }
-.section-nav a{
+.topbar a{
   font-size:16px;
   padding: 6px 4px;
 }
-.section-nav a:hover{ text-decoration: underline; }
+.topbar a:hover{ text-decoration: underline; }
+
+/* HERO PHOTO */
+.hero{
+  width:100%;
+  position:relative;
+  height: 520px;
+  overflow:hidden;
+}
+.hero-bg{
+  position:absolute;
+  inset:0;
+  background-image: url("assets/hero.jpg"); /* upload your photo here */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Bottom-right overlay: tuned to match screenshot */
+.hero-card{
+  position:absolute;
+  right: 26px;
+  bottom: 18px;
+  z-index: 2;
+  text-align:right;
+  color: rgba(255,255,255,0.98);
+  text-shadow: 0 2px 10px rgba(0,0,0,0.28);
+}
+.hero-name{
+  font-family: var(--font-head);
+  text-transform:uppercase;
+  font-size: 44px;
+  line-height: 1.02;
+  margin: 0;
+}
+.hero-email{
+  margin-top: 4px;
+  font-family: var(--font-body);
+  font-weight:700;
+  font-size: 14px;
+  line-height: 1.2;
+  opacity: 0.95;
+}
+.hero-social{
+  margin-top: 2px;
+  font-family: var(--font-body);
+  font-weight:700;
+  font-size: 14px;
+  line-height: 1.2;
+  opacity: 0.95;
+}
+.hero-card a{
+  color: rgba(255,255,255,0.98);
+}
+.hero-card a:hover{
+  text-decoration: underline;
+}
 
 /* INTRO */
 .intro{
   max-width: var(--max);
   margin: 0 auto;
   text-align:center;
-  padding: 22px 18px 18px;
+  padding: 18px 18px 18px;
 }
-
-/* Name: Archivo Black */
-.name{
-  margin: 6px 0 10px;
-  font-family: var(--font-head);
-  font-weight:400;
-  font-size:38px;
-  letter-spacing:0.02em;
-  text-transform:uppercase;
-}
-
-/* Contact: body font (Canva Sans substitute) */
-.contact{
-  margin: 0 auto 16px;
-  color: var(--purple);
-  font-family: var(--font-body);
-  font-size:14px;
-  font-weight:700;
-}
-.contact a{ color: var(--purple); }
-.contact a:hover{ text-decoration:underline; }
-.social{ margin-top:4px; }
-
-/* Bio: body font (Canva Sans substitute) */
 .bio{
-  max-width: 860px;
-  margin: 0 auto;
+  max-width: 980px;
+  margin: 0 auto 14px;
   font-family: var(--font-body);
   font-size:18px;
   line-height:1.6;
   color: #444;
 }
+
+/* PUBLICATIONS */
+.pubs{
+  padding-top: 6px;
+}
+.pubs-title{
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  color: var(--purple);
+  margin: 0 0 10px 0;
+}
+.pubs-list{
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.pubs-list a:hover{ text-decoration: underline; }
+.pipe{ color:#000; opacity:0.7; }
 
 /* PAGE */
 .page{
@@ -154,7 +150,7 @@ a{ color:inherit; text-decoration:none; }
 /* SECTION */
 .sec{ padding-top: 36px; }
 
-/* Section titles: Archivo Black */
+/* Section titles: centered */
 .sec-title{
   margin:0 0 18px;
   font-family: var(--font-head);
@@ -162,9 +158,10 @@ a{ color:inherit; text-decoration:none; }
   letter-spacing:0.02em;
   font-size:34px;
   text-transform:uppercase;
+  text-align: center;
 }
 
-/* STORY BLOCKS */
+/* STORY BLOCKS (your existing layout) */
 .story{
   display:grid;
   grid-template-columns: 520px 1fr;
@@ -174,7 +171,6 @@ a{ color:inherit; text-decoration:none; }
   border-top: 1px solid #ededed;
 }
 .story:first-of-type{ border-top:none; }
-
 .story-b{ grid-template-columns: 1fr 520px; }
 
 .story-img{
@@ -183,10 +179,8 @@ a{ color:inherit; text-decoration:none; }
   background-size: cover;
   background-position: center;
 }
-
 .story-text{ padding-top: 4px; }
 
-/* Headlines: Archivo Black */
 .story-headline{
   margin:0 0 10px 0;
   text-transform:uppercase;
@@ -195,8 +189,6 @@ a{ color:inherit; text-decoration:none; }
   font-size:30px;
   line-height:1.05;
 }
-
-/* Byline + dek: Canva Sans substitute */
 .story-byline{
   margin:0 0 8px 0;
   color: var(--purple);
@@ -226,6 +218,15 @@ a{ color:inherit; text-decoration:none; }
   text-decoration: underline;
 }
 
+/* Photography placeholder */
+.photo-placeholder{
+  text-align:center;
+  color:#666;
+  margin: 0;
+  padding: 18px 0;
+  font-family: var(--font-body);
+}
+
 /* Footer */
 .footer{
   margin-top: 40px;
@@ -238,9 +239,10 @@ a{ color:inherit; text-decoration:none; }
 
 /* Responsive */
 @media (max-width: 1100px){
-  .cover-headline{ font-size: 38px; }
   .story{ grid-template-columns: 1fr; }
   .story-b{ grid-template-columns: 1fr; }
   .story-img{ height: 240px; }
-  .section-nav{ gap:16px; flex-wrap:wrap; }
+  .topbar{ gap:16px; flex-wrap:wrap; }
+  .hero{ height: 440px; }
+  .hero-name{ font-size: 32px; }
 }
