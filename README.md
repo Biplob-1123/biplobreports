@@ -100,9 +100,9 @@
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
         <div class="story-text">
           <h4 class="story-headline">THE MONEY VERSUS MAMDANI IN THE FINAL STRETCH OF NYC MAYORAL RACE</h4>
-          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-byline">Meghnad Bose and Biplob Kumar Das</p>
           <p class="story-pub">DropSite News</p>
-          <p class="story-dek">Reporting on late-stage spending and influence in the NYC mayoral contest.</p>
+          <p class="story-dek">Unpacking the expensive eleventh-hour efforts by billionaires targeting Zohran Mamdani.</p>
         </div>
       </a>
 
@@ -111,7 +111,7 @@
           <h4 class="story-headline">CUOMO’S OUTREACH TO SOUTH ASIANS SHADOWED BY FAR-RIGHT ANTI-MUSLIM TIES</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">Documented</p>
-          <p class="story-dek">How outreach politics intersect with far-right networks and anti-Muslim rhetoric.</p>
+          <p class="story-dek">The former governor’s campaign, which include events hosted by Gujarati Samaj members linked to far-right rhetoric, has prompted criticism from Muslim New Yorkers and immigrant advocate groups.</p>
         </div>
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
       </a>
@@ -125,9 +125,9 @@
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
         <div class="story-text">
           <h4 class="story-headline">ZOHRAN MAMDANI'S MAYORAL WIN: THE 'RIGHT KIND OF REPRESENTATION' FOR INDIAN AMERICANS IN NEW YORK</h4>
-          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-byline">Fatima Khan and Biplob Kumar Das</p>
           <p class="story-pub">The Quint</p>
-          <p class="story-dek">A look at diaspora reactions and political meaning after the win speech.</p>
+          <p class="story-dek">For Indian Americans in New York, there's more to Zohran Mamdani's win than just his South Asian heritage.</p>
         </div>
       </a>
 
@@ -136,7 +136,7 @@
           <h4 class="story-headline">ZOHRAN MAMDANI TO STREET VENDORS: I’M LISTENING</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">Documented</p>
-          <p class="story-dek">Street vendors, policy, and the campaign’s promises on enforcement and support.</p>
+          <p class="story-dek">Zohran Mamdani's promise to lower chicken-over-rice prices and reform vending permits has inspired a wave of grassroots organizing among the city's 23,000 street vendors.</p>
         </div>
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
       </a>
@@ -147,7 +147,7 @@
           <h4 class="story-headline">“PROUD OF MY HINDU HERITAGE”: MAMDANI VISITS NYC TEMPLES TO CONNECT WITH SUPPORTERS</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">New India Abroad</p>
-          <p class="story-dek">Campaign outreach, identity politics, and community strategy.</p>
+          <p class="story-dek">First Muslim mayoral candidate highlights Hindu heritage in New York campaign push.</p>
         </div>
       </a>
 
@@ -156,7 +156,7 @@
           <h4 class="story-headline">MAMDANI ANNOUNCES NEW PLAN TO HIRE THOUSANDS OF TEACHERS FOR NYC PUBLIC SCHOOLS</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">New India Abroad</p>
-          <p class="story-dek">Education policy and staffing proposals on the trail.</p>
+          <p class="story-dek">New York City currently hires about 4,000 to 5,000 new teachers each year.</p>
         </div>
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
       </a>
@@ -167,7 +167,7 @@
           <h4 class="story-headline">MAMDANI SHINES, CUOMO FLOPS, SLIWA SURPRISES IN NYC DEBATE</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">New India Abroad</p>
-          <p class="story-dek">Debate performance and what it signals for the final stretch.</p>
+          <p class="story-dek">New India Abroad spoke to the public for their first reaction after the first NYC mayoral debate.</p>
         </div>
       </a>
 
@@ -176,7 +176,7 @@
           <h4 class="story-headline">“MAMDANI STOOD OUT, CUOMO DIDN’T HAVE SUBSTANCE”: DESIS REACT TO FINAL NYC MAYORAL DEBATE</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">New India Abroad</p>
-          <p class="story-dek">Community reaction and what voters are prioritizing.</p>
+          <p class="story-dek">A debate watch-party was held by South-Asian and Indo-Carribean rights group DRUM Beats in Ozone Park, Queens.</p>
         </div>
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
       </a>
@@ -187,7 +187,7 @@
           <h4 class="story-headline">HINDUS FOR ZOHRAN ORGANIZES PRAYER MEET FOR MAMDANI IN NY</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">New India Abroad</p>
-          <p class="story-dek">Organizing and symbolism in community spaces.</p>
+          <p class="story-dek">The event was also attended by Mamdani’s mother, Mira Nair, the award-winning Indian-American director of films such as Mississippi Masala.</p>
         </div>
       </a>
 
@@ -196,7 +196,7 @@
           <h4 class="story-headline">CUOMO’S OUTREACH TO SOUTH ASIANS SHADOWED BY FAR-RIGHT ANTI-MUSLIM TIES</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">Documented</p>
-          <p class="story-dek">Campaign alliances and the backlash from Muslim New Yorkers.</p>
+          <p class="story-dek">The former governor’s campaign, which include events hosted by Gujarati Samaj members linked to far-right rhetoric, has prompted criticism from Muslim New Yorkers and immigrant advocate groups.</p>
         </div>
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
       </a>
@@ -205,9 +205,9 @@
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
         <div class="story-text">
           <h4 class="story-headline">THE MONEY VERSUS MAMDANI IN THE FINAL STRETCH OF NYC MAYORAL RACE</h4>
-          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-byline">Meghnad Bose and Biplob Kumar Das</p>
           <p class="story-pub">DropSite News</p>
-          <p class="story-dek">Spending, pressure campaigns, and late-stage narratives.</p>
+          <p class="story-dek">Unpacking the expensive eleventh-hour efforts by billionaires targeting Zohran Mamdani.</p>
         </div>
       </a>
     </section>
@@ -221,9 +221,9 @@
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
         <div class="story-text">
           <h4 class="story-headline">ZOHRAN MAMDANI'S MAYORAL WIN: THE 'RIGHT KIND OF REPRESENTATION' FOR INDIAN AMERICANS IN NEW YORK</h4>
-          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-byline">Fatima Khan and Biplob Kumar Das</p>
           <p class="story-pub">The Quint</p>
-          <p class="story-dek">Diaspora reaction and political significance.</p>
+          <p class="story-dek">For Indian Americans in New York, there's more to Zohran Mamdani's win than just his South Asian heritage.</p>
         </div>
       </a>
 
@@ -232,7 +232,7 @@
           <h4 class="story-headline">ZOHRAN MAMDANI TO STREET VENDORS: I’M LISTENING</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">Documented</p>
-          <p class="story-dek">Policy, street vendors, and campaign commitments.</p>
+          <p class="story-dek">Zohran Mamdani's promise to lower chicken-over-rice prices and reform vending permits has inspired a wave of grassroots organizing among the city's 23,000 street vendors.</p>
         </div>
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
       </a>
@@ -243,7 +243,7 @@
           <h4 class="story-headline">“PROUD OF MY HINDU HERITAGE”: MAMDANI VISITS NYC TEMPLES TO CONNECT WITH SUPPORTERS</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">New India Abroad</p>
-          <p class="story-dek">Identity, outreach, and coalition building.</p>
+          <p class="story-dek">First Muslim mayoral candidate highlights Hindu heritage in New York campaign push.</p>
         </div>
       </a>
 
@@ -252,7 +252,7 @@
           <h4 class="story-headline">MAMDANI ANNOUNCES NEW PLAN TO HIRE THOUSANDS OF TEACHERS FOR NYC PUBLIC SCHOOLS</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">New India Abroad</p>
-          <p class="story-dek">A major staffing proposal and its political stakes.</p>
+          <p class="story-dek">New York City currently hires about 4,000 to 5,000 new teachers each year.</p>
         </div>
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
       </a>
@@ -263,7 +263,7 @@
           <h4 class="story-headline">MAMDANI SHINES, CUOMO FLOPS, SLIWA SURPRISES IN NYC DEBATE</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">New India Abroad</p>
-          <p class="story-dek">Debate dynamics and what changed afterward.</p>
+          <p class="story-dek">New India Abroad spoke to the public for their first reaction after the first NYC mayoral debate.</p>
         </div>
       </a>
 
@@ -272,7 +272,7 @@
           <h4 class="story-headline">“MAMDANI STOOD OUT, CUOMO DIDN’T HAVE SUBSTANCE”: DESIS REACT TO FINAL NYC MAYORAL DEBATE</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">New India Abroad</p>
-          <p class="story-dek">How voters interpreted the final debate.</p>
+          <p class="story-dek">A debate watch-party was held by South-Asian and Indo-Carribean rights group DRUM Beats in Ozone Park, Queens.</p>
         </div>
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
       </a>
@@ -283,7 +283,7 @@
           <h4 class="story-headline">HINDUS FOR ZOHRAN ORGANIZES PRAYER MEET FOR MAMDANI IN NY</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">New India Abroad</p>
-          <p class="story-dek">Organizing as momentum-building in the final stretch.</p>
+          <p class="story-dek">The event was also attended by Mamdani’s mother, Mira Nair, the award-winning Indian-American director of films such as Mississippi Masala.</p>
         </div>
       </a>
 
@@ -292,7 +292,7 @@
           <h4 class="story-headline">CUOMO’S OUTREACH TO SOUTH ASIANS SHADOWED BY FAR-RIGHT ANTI-MUSLIM TIES</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">Documented</p>
-          <p class="story-dek">Campaign alliances and immigrant-community backlash.</p>
+          <p class="story-dek">The former governor’s campaign, which include events hosted by Gujarati Samaj members linked to far-right rhetoric, has prompted criticism from Muslim New Yorkers and immigrant advocate groups.</p>
         </div>
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
       </a>
@@ -301,9 +301,9 @@
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
         <div class="story-text">
           <h4 class="story-headline">THE MONEY VERSUS MAMDANI IN THE FINAL STRETCH OF NYC MAYORAL RACE</h4>
-          <p class="story-byline">Biplob Kumar Das</p>
+          <p class="story-byline">Meghnad Bose and Biplob Kumar Das</p>
           <p class="story-pub">DropSite News</p>
-          <p class="story-dek">Tracking the pressure points and spending patterns.</p>
+          <p class="story-dek">Unpacking the expensive eleventh-hour efforts by billionaires targeting Zohran Mamdani.</p>
         </div>
       </a>
 
@@ -312,7 +312,7 @@
           <h4 class="story-headline">“MODI ON BOARD”: JEFFREY EPSTEIN PRESSED STEVE BANNON TO MEET WITH INDIAN PM SHORTLY BEFORE HIS DEATH</h4>
           <p class="story-byline">Meghnad Bose, Biplob Kumar Das, and Murtaza Hussain</p>
           <p class="story-pub">DropSite News</p>
-          <p class="story-dek">Emails and texts revealing influence-brokering efforts.</p>
+          <p class="story-dek">Records of emails and text messages reveal previously unknown details about Epstein’s efforts to broker influence on Indian geopolitics and his interactions with a senior leader of Modi’s party.</p>
         </div>
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
       </a>
@@ -323,7 +323,7 @@
           <h4 class="story-headline">EXCLUSIVE: INDIA’S LARGEST FAR-RIGHT HINDU ORGANIZATION HIRES U.S. LOBBYISTS FOR CONGRESSIONAL INFLUENCE CAMPAIGN</h4>
           <p class="story-byline">Meghnad Bose and Biplob Kumar Das</p>
           <p class="story-pub">Prism</p>
-          <p class="story-dek">Lobbying, influence, and the U.S. political pipeline.</p>
+          <p class="story-dek">Squire Patton Boggs lobbied U.S. lawmakers on behalf of the Rashtriya Swayamsevak Sangh, a Hindu nationalist group linked to discrimination and violence against Muslims, a Prism investigation found.</p>
         </div>
       </a>
     </section>
@@ -338,7 +338,7 @@
           <h4 class="story-headline">SOUTH ASIAN STOREOWNERS ‘DOOMED’ BY TRUMP’S 50% TARIFFS ON INDIA IMPORTS</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">Documented</p>
-          <p class="story-dek">How proposed tariffs could hit immigrant-run businesses in Queens.</p>
+          <p class="story-dek">South Asian storeowners in NYC are footing the bill as costs rise drastically after the U.S. imposed 50% tariffs on India, making it a survival test for these immigrant businesses.</p>
         </div>
       </a>
 
@@ -347,7 +347,7 @@
           <h4 class="story-headline">INDIAN WINEMAKER SULA NOT LOSING SLEEP OVER FOREIGN RIVALS, CEO SAYS</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">Reuters</p>
-          <p class="story-dek">Corporate strategy and competitive pressures in the market.</p>
+          <p class="story-dek">India's largest winemaker, Sula Vineyards, is expanding its production capacity and counting on a pricing sweet spot to fend off foreign rivals in its home turf.</p>
         </div>
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
       </a>
@@ -358,7 +358,7 @@
           <h4 class="story-headline">INDIA AVIATION REGULATOR RAISES ENGINE FAILURE ISSUE WITH PRATT & WHITNEY</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">Reuters</p>
-          <p class="story-dek">Regulatory concerns and aerospace supply chain impacts.</p>
+          <p class="story-dek">India's aviation regulator has raised three incidents of engine failures in IndiGo flights with engine maker Pratt & Whitney, the country's civil aviation ministry said on Thursday.</p>
         </div>
       </a>
 
@@ -367,7 +367,7 @@
           <h4 class="story-headline">RELIANCE UNIT WINS INDIA CRICKET BOARD’S MEDIA RIGHTS WITH $713M BID</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">Reuters</p>
-          <p class="story-dek">Major media rights deal and what it signals for streaming and telecom.</p>
+          <p class="story-dek">The company already owns digital streaming rights to the popular Indian Premier League tournament.</p>
         </div>
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
       </a>
@@ -378,7 +378,7 @@
           <h4 class="story-headline">INDIA’S GODREJ AGROVET POSTS HIGHER Q1 PROFIT AS COSTS DROP</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">Reuters</p>
-          <p class="story-dek">Earnings, margins, and sector-level implications.</p>
+          <p class="story-dek">The easing in retail food inflation in the quarter and demand recovery in the agriculture sector aided profitability as raw material costs cooled off.</p>
         </div>
       </a>
 
@@ -387,7 +387,7 @@
           <h4 class="story-headline">INDIA’S BAJAJ AUTO POSTS Q1 PROFIT RISE ON STRONG DEMAND</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">Reuters</p>
-          <p class="story-dek">Auto demand strength and pricing power.</p>
+          <p class="story-dek">Demand pick-up in rural areas and a prolonged wedding season in the country amid some ease in inflation helped automakers log gains during the quarter.</p>
         </div>
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
       </a>
@@ -398,7 +398,7 @@
           <h4 class="story-headline">UNLIKE NETFLIX, INDIA’S ZEE5 GLOBAL NOT BALKING AT PASSWORD SHARING</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">Reuters</p>
-          <p class="story-dek">Streaming strategy and subscriber growth approaches.</p>
+          <p class="story-dek">Last month, Netflix told its subscribers in the United States and more than 100 countries that they had to pay more to share the service with someone outside their household.</p>
         </div>
       </a>
 
@@ -407,7 +407,7 @@
           <h4 class="story-headline">INDIA MAKES TOBACCO WARNINGS MANDATORY ON STREAMING SITES</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">Reuters</p>
-          <p class="story-dek">Regulation, platform compliance, and industry reaction.</p>
+          <p class="story-dek">While film and television certification bodies already moderate public content in India, its laws have few provisions to censor content on popular online platforms.</p>
         </div>
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
       </a>
@@ -423,7 +423,7 @@
           <h4 class="story-headline">SOUTH ASIAN STOREOWNERS ‘DOOMED’ BY TRUMP’S 50% TARIFFS ON INDIA IMPORTS</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">Documented</p>
-          <p class="story-dek">Immigrant-run businesses and the policy shock of tariffs.</p>
+          <p class="story-dek">South Asian storeowners in NYC are footing the bill as costs rise drastically after the U.S. imposed 50% tariffs on India, making it a survival test for these immigrant businesses.</p>
         </div>
       </a>
 
@@ -432,7 +432,7 @@
           <h4 class="story-headline">ZOHRAN MAMDANI TO STREET VENDORS: I’M LISTENING</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">Documented</p>
-          <p class="story-dek">Street vending, enforcement, and immigrant livelihoods.</p>
+          <p class="story-dek">Zohran Mamdani's promise to lower chicken-over-rice prices and reform vending permits has inspired a wave of grassroots organizing among the city's 23,000 street vendors.</p>
         </div>
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
       </a>
@@ -443,7 +443,7 @@
           <h4 class="story-headline">“PROUD OF MY HINDU HERITAGE”: MAMDANI VISITS NYC TEMPLES TO CONNECT WITH SUPPORTERS</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">New India Abroad</p>
-          <p class="story-dek">Community outreach and immigrant political organization.</p>
+          <p class="story-dek">First Muslim mayoral candidate highlights Hindu heritage in New York campaign push.</p>
         </div>
       </a>
 
@@ -452,7 +452,7 @@
           <h4 class="story-headline">HINDUS FOR ZOHRAN ORGANIZES PRAYER MEET FOR MAMDANI IN NY</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">New India Abroad</p>
-          <p class="story-dek">Immigrant community engagement and religious spaces.</p>
+          <p class="story-dek">The event was also attended by Mamdani’s mother, Mira Nair, the award-winning Indian-American director of films such as Mississippi Masala.</p>
         </div>
         <div class="story-img" style="background-image:url('assets/cover.jpg');"></div>
       </a>
@@ -463,7 +463,7 @@
           <h4 class="story-headline">CUOMO’S OUTREACH TO SOUTH ASIANS SHADOWED BY FAR-RIGHT ANTI-MUSLIM TIES</h4>
           <p class="story-byline">Biplob Kumar Das</p>
           <p class="story-pub">Documented</p>
-          <p class="story-dek">How immigrant communities navigate political targeting and backlash.</p>
+          <p class="story-dek">The former governor’s campaign, which include events hosted by Gujarati Samaj members linked to far-right rhetoric, has prompted criticism from Muslim New Yorkers and immigrant advocate groups.</p>
         </div>
       </a>
     </section>
