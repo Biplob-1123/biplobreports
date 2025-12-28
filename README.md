@@ -1,5 +1,5 @@
 <html lang="en">
-<head>
+<link rel="stylesheet" href="styles.css" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Biplob Reports</title>
@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Graduate&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
-</head>
+<link rel="stylesheet" href="styles.css" />
 
 <body>
 
