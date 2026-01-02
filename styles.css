@@ -108,7 +108,7 @@ a{ color:inherit; text-decoration:none; }
 }
 .bio{
   max-width: 980px;
-  margin: 0 auto 14px;
+  margin: 0 auto 17px;
   font-family: var(--font-body);
   font-size:12px;
   line-height:1.6;
